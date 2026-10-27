@@ -7,7 +7,7 @@ import model.Productos;
 
 public class ejercicio {
     public static void main(String[] args) {
-        localDAO ld = new localDAO("json\\src\\main\\java\\dam2\\accesodatos\\data\\list.json");
+        localDAO ld = new localDAO("AccesoJSON\\json\\src\\main\\java\\dam2\\accesodatos\\data\\list.json");
         boolean b = true;
        
         List<Productos> a = ld.listarTodos();
